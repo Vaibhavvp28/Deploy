@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+  ::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #FFF;
+    border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #00baf2;
+    border-radius: 5px;
+}
+
+
+@media (min-wdidth:1025px) {
+    .hero__img{
+        max-width: 300px;
+        max-height: 10px;
+    }
+}
